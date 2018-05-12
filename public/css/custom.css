@@ -1,0 +1,233 @@
+
+body {
+	  font-family: "Dosis", Helvetica, Arial, sans-serif;
+	  font-size: 17px;
+/*	  background-image: url("../img/wall-4-light-v1.png");*/
+	  background-color: rgba(243,243,243, 1);
+}
+
+.search-input-home {
+	padding-bottom: 50px;
+}
+.search-buton {
+	text-align: left;
+}
+.navbar {
+	border-bottom: none;
+}
+.navbar-brand {
+	font-weight: 600;
+    background: #fff;
+    color: #2fa4e7 !important;
+    font-size: 23px;
+}
+
+.thumbnail {
+width: 100%;
+}
+
+.results-title {
+    border-bottom: 1px solid #000;
+    width: 25%;
+    padding-bottom: 5px;
+}
+.results-title span {
+    content: "";
+    display: block;
+    height: 5px;
+    margin: 7px auto -3px;
+    position: relative;
+    width: 10%;
+    background-color: #317eac;
+}
+
+.radioItem{
+    background: white;
+    padding: 0;
+    padding:0px;
+        width: 22%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.radioItem h4{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 230px;
+    overflow: hidden;
+    color: #FFF;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.radioItem h4 a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.radioItem h4 a:hover{
+    text-decoration: none;
+    color: #CCC;
+}
+
+.radioItem .descr{
+    margin-bottom: 5px;
+}
+
+.radioItem .thumbnail{
+    margin:0;
+    border-radius: 0px;
+}
+
+.radioItem .thumbnail img{
+    border-radius: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+.caption {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    color:#fff !important;
+}
+
+.btn-wd{
+    width:400px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+    padding: 25px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    height: 40px;
+    width: 100%;
+    overflow:hidden;
+}
+.player-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    overflow:hidden;
+}
+
+#theRadioPlayer{
+    margin-top:-50px;
+}
+
+.loadMoreBtn{
+    clear:both;
+    display: block;
+    margin: 0 auto;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #DCDCDC;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#loading {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -28px 0 0 -25px;
+}
+#jp_container_1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #31A5E7;
+}
+/*#jp_container_1 .jp-details {
+    background-color: rgba(52,166,231,0.7);
+}*/
+#jp_container_1 .jp-controls {
+    width: 100%;
+    padding: 20px 105px 0px 105px;
+}
+.jp-audio .jp-type-single .jp-progress {
+    left: 17% !important;
+    width: 65% !important;
+}
+.jp-volume-controls {
+    left: dsa;
+    right: 0px;
+}
+.jp-audio .jp-interface {
+    height: 40px;
+}
+.jp-audio .jp-type-single .jp-time-holder {
+    left: 50%;
+    margin-left: -93px;
+}
+.footer .pull-left {
+    padding-top: 10px;
+}
+.searchForCountries {
+    width: 60%;
+    margin: 0 auto;
+}
+.search-text {
+    margin-bottom: 35px;
+    text-align: center;
+}
+.search-country .span3 {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.search-country {
+    display:flex;
+}
+.continent-name {
+    padding: 5px 20px;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-left: 2px;
+    border-radius: 4px;
+}
+.continent-name:hover {
+    background-color: #31A5E7;
+    color: #fff;
+}
+.search-country a .span3 {
+    margin-left: 15px;
+    font-size: 20px;
+}
+.search-country h3 {
+    width: 100%;
+    margin-left: 15px;
+}
+.continents-tabs {
+    text-align: center;
+}
+.continent-name.active {
+    background-color: #31A5E7;
+    color: #fff;
+}
+.displayImp {
+    display: block !important;
+}

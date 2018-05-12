@@ -1,0 +1,68 @@
+
+body {
+    padding-top: 54px;
+    background: #aaa;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.SlickSlider {
+    margin:20px auto;
+    max-width: 600px;
+}
+
+.SlideImage {
+    max-height:400px;
+}
+
+.Slide {
+    position:relative;
+}
+
+.SlideText {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    width:100%;
+    color:#9fcdff;
+    text-align: center;
+}
+
+.ContentTitle {
+    text-align:center;
+}
+
+.descImage {
+    max-width:500px;
+}
+
+.MarkList {
+    list-style-image:url(../img/listIco.png)
+
+}
+
+
+a:hover {
+    text-decoration:none;
+}
+
+.FeedbackForm {
+    max-width:300px;
+    color:white;
+    font-size:20px;
+
+}
+
+
+#contactInfo{
+    max-width: 400px;
+    color:#fff;
+}
+
+.col-4 {
+    color: #fff;
+}
